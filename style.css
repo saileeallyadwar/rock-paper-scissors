@@ -67,3 +67,23 @@ img{
     font-size: larger;
     margin-top: 50px;
 }
+@media (max-width: 768px) {
+.choices {
+flex-direction: column; /* Stack choices vertically */
+}
+.score-board {
+flex-direction: column; /* Stack score-board vertically */
+gap: 1rem;
+}
+#user-score, #computer-score{
+font-size: 3rem; /* Reduce font size */
+}
+.mssg-container{
+font-size: 1.5rem; /* Reduce font size */
+margin-top: 10px;
+}
+#comp{
+font-size: medium; /* Adjust font size */
+margin-top: 30px;
+}
+}
