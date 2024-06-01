@@ -76,7 +76,7 @@ flex-direction: column; /* Stack score-board vertically */
 gap: 1rem;
 }
 #user-score, #computer-score{
-font-size: 3rem; /* Reduce font size */
+font-size: 0.5rem; /* Reduce font size */
 }
 .mssg-container{
 font-size: 1rem; /* Reduce font size */
